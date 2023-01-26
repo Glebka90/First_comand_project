@@ -1,0 +1,48 @@
+@media only screen and (max-width:806px){
+    .slick-prev {
+        left: -5px !important;
+    
+    } 
+    
+    .slick-next {
+        right: 5px !important;
+    } 
+    
+}
+@media only screen and (max-width:604px){
+    .menu{
+        display: none;
+    }
+}
+@media only screen and (max-width:566px){
+    .price__card{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+}
+@media only screen and (max-width :1072px) {
+    .card:last-child {
+        display: none;
+    }
+}
+@media only screen and (max-width :809px) {
+    .card:last-child {
+        display: none;
+    }
+    .card:nth-child(3n){
+        display: none;
+    }
+}
+@media only screen and (max-width :549px) {
+    .card:last-child {
+        display: none;
+    }
+    .card:nth-child(3n){
+        display: none;
+    }
+    .card:nth-child(2n){
+        display: none;
+    }
+}
